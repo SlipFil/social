@@ -1,0 +1,31 @@
+.header{
+  display: flex;
+  align-items: center;
+  grid-area: h;
+  background-color: rgb(43, 233, 138);
+  border-radius: 5px;
+  justify-content: space-between;
+  }
+  .header img{
+    margin-left: 5px;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    }
+    .loginBlock{
+      margin-right: 20px;
+      color: #fff;
+      text-decoration: none;
+    } 
+    .loginBlock a{
+      
+      color: #fff;
+      text-decoration: none;
+      transition: 0.5s;
+    } 
+    .loginBlock a:hover{
+      
+      color: #000;
+    } 
+    

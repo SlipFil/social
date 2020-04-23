@@ -1,0 +1,19 @@
+.profileInfo{
+    display: flex;
+
+}
+.profileInfo img{
+    display: block;
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.description{
+    margin: 10px;
+}
+.fullName {
+    font-weight: 600;
+    font-size: 18px;
+}

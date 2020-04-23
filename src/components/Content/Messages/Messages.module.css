@@ -1,0 +1,21 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogsitems{
+    margin: 10px;
+    border-right: 2px solid  gray;
+    height: 100%;
+}
+.dialogsitems .active{
+    color: blue;
+}
+.item{
+font-weight: 600;
+}
+.messages{
+    margin: 10px;
+}
+.message{
+
+}

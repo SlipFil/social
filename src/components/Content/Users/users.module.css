@@ -1,0 +1,10 @@
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.selectedPage {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 5px;
+}
