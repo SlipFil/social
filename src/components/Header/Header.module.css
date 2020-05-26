@@ -35,5 +35,26 @@
     .loginBlock a:hover{
       
       color: #000;
+    }
+    .left_part_header {
+      display: flex;
+      align-items: center;
     } 
+    .search_block{
+      position: relative;
+      margin-right: 40px;
+
+    }
+    .serach_input{
+      border: none;
+      height: 26px;
+      border-radius: 13px;
+      padding-left: 25px;
+      padding-right: 40px;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .serach_input::placeholder{
+      color: #939598
+      }
+    
     

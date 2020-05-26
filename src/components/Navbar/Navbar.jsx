@@ -1,16 +1,18 @@
 import React from "react";
 import s from "./Navbar.module.css";
 import { NavLink } from "react-router-dom";
+import { UsergroupAddOutlined } from '@ant-design/icons';
+import avatar from '../../assets/images/userImage.png'
 
 const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div className={s.profile_block}>
-        <img src="" alt="photo"/>
-        <div className={s.profile_info}>
-          <div>Name</div>
-          <div className={s.followers}><i class="ion ion-android-person-add"></i><img src="" alt="friends_icon"/> 1,100</div>
-          <div>followers</div>
+        <img src={avatar} className={s.avatar} alt="photo"/>
+        <div className={s.profile_info} >
+          <h5>Name</h5>
+          <div className={s.followers}><UsergroupAddOutlined /> 1,100 <br/> followers</div>
+          
         </div>
       </div>
       <div className={s.navitem}>
