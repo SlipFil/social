@@ -5,6 +5,14 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className={s.nav}>
+      <div className={s.profile_block}>
+        <img src="" alt="photo"/>
+        <div className={s.profile_info}>
+          <div>Name</div>
+          <div className={s.followers}><i class="ion ion-android-person-add"></i><img src="" alt="friends_icon"/> 1,100</div>
+          <div>followers</div>
+        </div>
+      </div>
       <div className={s.navitem}>
         <NavLink to="/profile" activeClassName={s.active}>Profile</NavLink>
       </div>
