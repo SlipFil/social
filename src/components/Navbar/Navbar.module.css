@@ -1,4 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
 .nav {
+  
   height: 700px;
   grid-area: n;
   width: 250px;
@@ -7,9 +10,16 @@
   font-size: 20px;
   color: #fff;
 }
-
+.navitem{
+  font-family: 'Lato', sans-serif;
+  margin-top: 10px;
+  font-weight: bold;
+  
+}
 .navitem :hover {
   text-decoration: underline;
+  transition: 1s;
+
   cursor: pointer;
 }
 
@@ -19,7 +29,7 @@
 }
 
 .navitem a.active{
-  color: blue;
+  color:#334FA3;
 }
 .navitem a{
   color: rgb(109, 110, 113);

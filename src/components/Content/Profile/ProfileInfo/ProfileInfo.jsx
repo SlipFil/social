@@ -10,7 +10,7 @@ const ProfileInfo = (props) => {
 
   return (
     <div className={s.profileInfo}>
-      <img className={s.avatar} src={!props.profile.photos.large ?avatar:props.profile.photos.large} />
+      <img className={s.avatar} src={!props.profile.photos.large ? avatar:props.profile.photos.large} />
       <div className={s.description}>
         <div>{props.profile.aboutMe}</div>
         <div className={s.fullName}>{props.profile.fullName}</div>

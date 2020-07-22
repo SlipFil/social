@@ -21,12 +21,13 @@ const MyPosts = (props) => {
   };
 
   return (
-    <div>
-      My posts
-      <div>
+    <div className={s.posts_block}>
+      <div className={s.title}>My posts</div>
+      <div className={s.post_form}>
         <textarea
           onChange={onPostChange}
           value={props.newPostText}
+          
         />
         <button onClick={onAddPost}>Add post</button>
       </div>
